@@ -18,7 +18,7 @@ public class Commercant extends Humain {
 	
 	public int seFaireExtorquer() {
 		int quantitePrecedente = this.getQuantiteArgent();
-		this.quantiteArgent = 0;
+		this.perdreArgent(quantitePrecedente);
 		this.parler("J'AI TOUT PERDU !!" + 
 				" Ô monde injuste, pourquoi cela me tombe-t-il dessus à moi ? Un homme si juste... " +
 				"quel monde ingrat...");
