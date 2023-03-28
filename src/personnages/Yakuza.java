@@ -47,8 +47,8 @@ public class Yakuza extends Humain{
 	public void gagner(int gain) {
 		this.reputation++;
 		this.gagnerArgent(gain);
-		this.parler("MOUAHAHAHAH JE SUIS REELLEMENT LE PLUS FORT ! En plus de ça, t'es dépouillé ahahah" +
-		", merci pour ces délicieux " + gain + " sous !");
+		this.parler("MOUAHAHAHAH J'AI GAGNE ! JE SUIS REELLEMENT LE PLUS FORT !" +
+		"En plus de ça, t'es dépouillé ahahah, merci pour ces délicieux " + gain + " sous !");
 	}
 
 }
