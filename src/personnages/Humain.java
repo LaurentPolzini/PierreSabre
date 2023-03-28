@@ -11,9 +11,9 @@ package personnages;
  *
  */
 public class Humain {
-	String nom;
-	String boissonFav;
-	int quantiteArgent;
+	private String nom;
+	private String boissonFav;
+	protected int quantiteArgent;
 	
 	
 	public Humain(String nom, String boissonFav, int quantiteArgent) {
